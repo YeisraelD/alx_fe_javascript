@@ -1,0 +1,175 @@
+/* Header Styles */
+header {
+    background-color: rgb(83, 83, 141); /* Replace with actual color */
+    height: 80px; /* Adjust based on Figma */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; /* Adjust based on Figma */
+}
+
+header .logo {
+    width: 150px; /* Adjust based on Figma */
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    gap: 20px; /* Adjust based on Figma */
+}
+
+header nav a {
+    color: rgb(45, 42, 42); /* Replace with actual color */
+    text-decoration: none;
+    font-size: 16px; /* Adjust based on Figma */
+}
+/* First Section Styles */
+.section-first {
+    background-color: rgb(79, 75, 75); /* Replace with actual color */
+    padding: 60px 20px; /* Adjust based on Figma */
+    text-align: center;
+}
+
+.section-first h1 {
+    color: grey; /* Replace with actual color */
+    font-size: 36px; /* Adjust based on Figma */
+    margin-bottom: 20px;
+}
+
+.section-first p {
+    color: burlywood; /* Replace with actual color */
+    font-size: 18px; /* Adjust based on Figma */
+    line-height: 1.6;
+}
+
+.section-first img {
+    width: 20%; /* Adjust based on Figma */
+    max-width: 6000px; /* Adjust based on Figma */
+    height: auto;
+    margin-top: 20px;
+}
+/* Centralized Styles */
+body {
+    font-family: 'YourFontFamily', sans-serif; /* Replace with actual font family */
+    color: blueviolet; /* Replace with actual color */
+    background-color: wheat; /* Replace with actual color */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black; /* Replace with actual color */
+}
+
+p {
+    line-height: 1.6;
+}
+/* Quote Section Styles */
+.quote-section {
+    background-color: rgb(135, 111, 139); /* Replace with actual color */
+    padding: 40px 20px; /* Adjust based on Figma */
+    text-align: center;
+}
+
+.quote-section blockquote {
+    font-size: 24px; /* Adjust based on Figma */
+    font-style: italic;
+    color: palegreen; /* Replace with actual color */
+    margin: 0 auto 20px;
+    max-width: 600px; /* Adjust based on Figma */
+}
+
+.quote-section cite {
+    display: block;
+    font-size: 18px; /* Adjust based on Figma */
+    color: salmon; /* Replace with actual color */
+    margin-top: 10px;
+}
+
+.quote-section img {
+    width: 60%; /* Adjust based on Figma */
+    max-width: 100px; /* Adjust based on Figma */
+    height: auto;
+    margin-top: 20px;
+}
+/* Videos List Section Styles */
+.videos-list-section {
+    background-color: bisque; /* Replace with actual color */
+    padding: 40px 20px; /* Adjust based on Figma */
+    text-align: center;
+}
+
+.videos-list-section h2 {
+    color: floralwhite; /* Replace with actual color */
+    font-size: 28px; /* Adjust based on Figma */
+    margin-bottom: 20px;
+}
+
+.videos-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust based on Figma */
+}
+
+.videos-list li {
+    background-color: rgb(62, 62, 132); /* Replace with actual color */
+    padding: 10px;
+    border-radius: 8px; /* Adjust based on Figma */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust based on Figma */
+    width: 200px; /* Adjust based on Figma */
+    text-align: center;
+}
+
+.videos-list img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px; /* Adjust based on Figma */
+}
+
+.videos-list p {
+    color: rgb(158, 119, 195); /* Replace with actual color */
+    font-size: 16px; /* Adjust based on Figma */
+    margin-top: 10px;
+}
+/* Footer Section Styles */
+.footer {
+    background-color: rgb(205, 143, 205); /* Replace with actual color */
+    padding: 40px 20px; /* Adjust based on Figma */
+    color: rgb(16, 16, 16); /* Replace with actual color */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 150px; /* Adjust based on Figma */
+    height: auto;
+}
+
+.footer-links,
+.footer-social {
+    display: flex;
+    gap: 20px; /* Adjust based on Figma */
+}
+
+.footer-links a,
+.footer-social a {
+    color: rgb(35, 34, 33); /* Replace with actual color */
+    text-decoration: none;
+    font-size: 16px; /* Adjust based on Figma */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px; /* Adjust based on Figma */
+    color: rgb(240, 202, 240); /* Replace with actual color */
+}
+
